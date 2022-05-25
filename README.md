@@ -1,6 +1,10 @@
 # ts-jest memory leaks
 
-Run `jest src/ --logHeapUsage --runInBand` and you'll see this:
+Run:
+```
+docker-compose up -d
+jest src/ --logHeapUsage --runInBand
+```
 
 ![result](./result.png)
 
